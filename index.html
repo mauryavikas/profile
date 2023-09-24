@@ -1,19 +1,209 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>WebPage</title>
+    <title>profile</title>
     <link rel="stylesheet" type="text/css" href="index.css">
 </head>
+
 <body>
-    <ul>
-        <li><h3>V</h3></li>
-        <li><h3>I</h3></li>
-        <li><h3>K</h3></li>
-        <li><h3>A</h3></li>
-        <li><h3>S</h3></li>
-    </ul>
+    <main>
+        <nav class="nav-bar">
+            <div class="nav-items">
+                <h2>Vikas Maurya</h2>
+            </div>
+            <ul class="nav-items">
+                <li class="nav-item"><a class="nav-link" data-section-id="about" href="#about">About</a></li>
+                <li class="nav-item"><a class="nav-link" data-section-id="work" href="#work">Work</a></li>
+                <li class="nav-item"><a class="nav-link" data-section-id="project" href="#project">Project</a></li>
+                <li class="nav-item"><a class="nav-link" data-section-id="involvement"
+                        href="#involvement">Involvement</a>
+                </li>
+                <li class="nav-item"><a class="nav-link" data-section-id="education" href="#education">Education</a>
+                </li>
+                <li class="nav-item"><a class="nav-link" data-section-id="avocation" href="#avocation">Avocation</a>
+                </li>
+                <li class="nav-item"><a class="nav-link" data-section-id="contact" href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+
+        <section id="about">
+            <div class="container">
+                <div class="profile-image">
+                    <img src="./utils/gitlab.jpeg" alt="Profile Image">
+                </div>
+                <div class="content">
+                    <h2>About Me</h2>
+                    <ul id="summary">
+                        <li>Highly skilled and motivated javascript developer with a strong passion for crafting
+                            exceptional user experiences.</li>
+                        <li>Experienced in developing responsive and scalable web applications using modern frontend and
+                            backend technologies.</li>
+                        <li>Good understanding of frontend frameworks, best practices, and design principles.</li>
+                        <li>Proven ability to collaborate effectively in cross-functional teams and deliver high-quality
+                            code. </li>
+                        <li>Adept at solving complex problems and continuously learning to stay up-to-date with the
+                            latest industry
+                            trends.
+                        </li>
+                    </ul>
+                    <h4>Primary skills</h4>
+                    <ul id="skill">
+                        <li>JavaScript (ES6+)</li>
+                        <li>React.js</li>
+                        <li>Node.js</li>
+                        <li>Express.js</li>
+                        <li>MongoDB</li>
+                        <li>Postgresql</li>
+                        <li>RESTful APIs</li>
+                        <li>HTML5/CSS3</li>
+                        <li>Version Control (Git)</li>
+                    </ul>
+
+                </div>
+            </div>
+        </section>
+
+        <section id="work">
+            <div class="content">
+                <h2>Work Experience</h2>
+                <div style="align-items: end;">
+                    <h3>Frontend Developer</h3>
+                    <p>BlastoServe Scientific</p>
+                    <p>Feb'23 - July'23</p>
+                    <ul id="summary">
+                        <li>Developed and maintained highly responsive and scalable web applications using React</li>
+                        <li>Collaborated with UI/UX designers to ensure consistency in design and optimal user
+                            experience.</li>
+                        <li>Worked closely with the backend team to integrate frontend components with server-side APIs.
+                        </li>
+                        <li>Integrated RESTful APIs, handling data retrieval and manipulation to provide dynamic and
+                            real-time user experiences.</li>
+                        <li>Utilized state management libraries like Redux to efficiently manage complex application
+                            states.</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <section id="project">
+            <div class="content">
+                <h2>Project</h2>
+                <div>
+                    <h3>Fertisoft</h3>
+                    <p>The primary goal of fertisoft system is to maintain centralized data of patients medical
+                        history and making it accessible to hospital management through a common software
+                        tool without the need for manual interaction between department, The software is aided
+                        with modules such as patient registration with KYC, invoices & billing, electronic medical
+                        records (EMR), wards and commercial management</p>
+                    <h3>Responsibilities</h3>
+                    <ul id="summary">
+                        <li>Attend all team meeting and code reviews</li>
+                        <li>Developed reusable UI components in react as per design guidelines.</li>
+                        <li>Performed regular maintenance tasks, including bug fixing, performance optimization and
+                            content updates</li>
+                        <li>Developed features such as invoice & billing, Patient registration, scheduling appointment
+                        </li>
+                    </ul>
+                </div>
+                <div>
+                    <h4>Stack</h4>
+                    <ul id="skill">
+                        <li>React.js</li>
+                        <li>RESTful APIs</li>
+                        <li>TailwindCss</li>
+                        <li>MUI</li>
+                        <li>Redux</li>
+                        <li>Django</li>
+                        <li>Figma</li>
+                        <li>HTML5/CSS3</li>
+                    </ul>
+
+                </div>
+            </div>
+        </section>
+        <section id="involvement">
+            <div class="content">
+            <h2>Involvement</h2>
+            <div>
+                <h3>Pune Foss User Group</h3>
+                <a href="https://pfug.org/" target="_blank">pfug.org</a>
+                <p>since 2019</p>
+                <p>Actively involved in the promotion of Free and Open Source Softwares (FOSS)</p>
+            </div>
+            <div>
+                <h3>Volunteering at Debian india</h3>
+                <a href="https://debian.org.in/" target="_blank">debian.org.in</a>
+                <p>2023</p>
+                <p>volunteered for Debian conference 2023  at Kochi</p>
+            </div>
+            <div>
+                <h3>Contributing to Little angel Trust, Mumbai</h3>
+                <a href="https://littleangeltrust.com/" target="_blank">littleangeltrust.com</a>
+                <p>2023</p>
+                <p>Design and maintain LittleAngel Trust Website</p>
+            </div>
+        </div>
+        </section>
+        <section id="education">
+            <div class="content">
+            <h2>Education</h2>
+            <div>
+                <h3>Bachelor of Engineering </h3>
+                    <p>Pune University</p>
+                    <p>2018</p>
+            </div>
+        </div>
+        </section>
+        <section id="avocation">
+            <div class="content">
+            <h2>Avocation</h2>
+            <div>
+                <h4>Trekking</h4>
+                <ul id="skill">
+                    <li>Katraj to Sinhagad - (night)</li>
+                    <li>pluse velley -(night)</li>
+                    <li>Kalavantin Durg</li>
+                    <li>Lonaval randon Hill trek</li>
+                </ul>
+            </div>
+            <div>
+                <h4>Places</h4>
+                <ul id="skill">
+                    <li>Ellora Caves</li>
+                    <li>Bibi Ka Maqbara </li>
+                    <li>Fort kochi</li>
+                    <li>Madgoan</li>
+                </ul>
+            </div>
+            <div>
+                <h4>Readings</h4>
+                <ul id="skill">
+                    <li>Train to Pakistan-Khushwant Singh</li>
+                    <li>Chitralekha(Hindi)-Bhagwati Charan Verma</li>
+                    <li>Inner Engineering-Sadhguru</li>
+                    <li>The Immortals of Meluha - Amish Tripathi</li>
+                    <li>The Secret of the Nagas-Amish Tripathi</li>
+                    <li>Why I Am an Atheist-Bhagat Singh</li>
+                </ul>
+            </div>
+        </div>
+        </section>
+        <section id="contact">
+            <div class="content">
+            <h2>Contact</h2>
+            <p>Email: vikasmaurya111@gmail.com</p>
+            <p>Mobile No: +91 9890013128</p>
+        </div>
+        </section>
+        <footer>
+            <p>&copy; 2023 Vikas Maurya</p>
+        </footer>
+    </main>
+
     <script type="module" src="index.js"></script>
 </body>
+
 </html>
